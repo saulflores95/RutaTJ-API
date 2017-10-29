@@ -1,0 +1,22 @@
+{
+  "name": "rutatj-api",
+  "version": "0.1.0",
+  "description": "RutaTJ API microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saul Flores",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

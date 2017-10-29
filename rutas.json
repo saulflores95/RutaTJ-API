@@ -1,0 +1,298 @@
+[{
+	"_id": "2Wo7w9mq7L8kWAPsT",
+	"text": "Terminal Insurgentes",
+	"longitud": "-116.9167767",
+	"latitud": "32.467105",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T20:15:20.043Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "2oRxeRnmQ4txQF59Y",
+	"text": "Excel",
+	"longitud": "-117.0113417",
+	"latitud": "32.521035",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:52:22.496Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "4bKM3jfyN8vqvEsjo",
+	"text": "Simon Boliva Oeste Centro",
+	"longitud": "-116.9227296",
+	"latitud": "32.53093870000001",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T20:40:51.090Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "55HGszFBaH784zNve",
+	"text": "Oxxo via rapida",
+	"longitud": "-116.9294517",
+	"latitud": "32.4771617",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T20:12:24.807Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "7N87rh2FutMeMeAX6",
+	"text": "Enfrente de London College",
+	"longitud": "-116.93444",
+	"latitud": "32.4848533",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T20:06:35.597Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "7TdbismPxbaiSZ7sM",
+	"text": "Abraham Lincoln",
+	"longitud": "-117.0161983",
+	"latitud": "32.52392",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:51:06.455Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "AcJH9FExRfmnaXF6D",
+	"text": "Clinica 1 Centro",
+	"longitud": "-116.92698050000001",
+	"latitud": "32.4745005",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T20:42:21.524Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "CHRJLrEba9Tjo56qA",
+	"text": "Negrete",
+	"longitud": "-117.03163699999998",
+	"latitud": "32.5261139",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:40:51.176Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "DD7rdWGbbzECwAbGy",
+	"text": "Puente Via Rapida",
+	"longitud": "-116.93291",
+	"latitud": "32.4829783",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T20:08:23.846Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "GM6Kbnip6af9mKqKz",
+	"text": "Las Americas",
+	"longitud": "-116.987565",
+	"latitud": "32.5156867",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:57:00.526Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "Ljm7Lojv26TesSYrJ",
+	"text": "Tijeras",
+	"longitud": "-117.0208317",
+	"latitud": "32.5270417",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:49:18.878Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "MqD4WHvQHuvtQt4r4",
+	"text": "Unidad Deportiva",
+	"longitud": "-116.97655",
+	"latitud": "32.5149033",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:58:49.365Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "SmYZaJ2mzmTYEAefm",
+	"text": "Pueblo Amigo",
+	"longitud": "-117.0250991",
+	"latitud": "32.5371041",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:23:29.735Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "WqQiALcCohcy7W2Qh",
+	"text": "Puente Ferrocarril",
+	"longitud": "-117.0014667",
+	"latitud": "32.5174083",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:55:21.338Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "YLdtu53FwWd8wptMi",
+	"text": "Pio Pico",
+	"longitud": "-117.02798489999999",
+	"latitud": "32.5263539",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:43:17.007Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "avGLj3qAXCBiquWQn",
+	"text": "Diana Cazadora",
+	"longitud": "-117.0218967",
+	"latitud": "32.535338599999996",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:22:08.276Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "c3ip3i98KiGeoFDyc",
+	"text": "Hospital General",
+	"longitud": "-117.00968",
+	"latitud": "32.5266533",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:09:35.636Z"
+	},
+	"user": "MugewWnxB22ZDz6xi"
+}, {
+	"_id": "duh6gnFTGZoJBM7SL",
+	"text": "Centro Revolucion Baja California",
+	"longitud": "-117.03794969999998",
+	"latitud": "32.5391554",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:29:25.856Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "eXGHSHtxQMSRSPvDH",
+	"text": "Puente clinica 1",
+	"longitud": "-116.9294517",
+	"latitud": "32.4771617",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T20:11:11.977Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "fmT2WA865d2XXa35g",
+	"text": "Cobach",
+	"longitud": "-116.9684283",
+	"latitud": "32.513235",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:59:19.415Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "iv3XPodgKn9oQQuzL",
+	"text": "Cruz Roja",
+	"longitud": "-116.9684283",
+	"latitud": "32.5073017",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T20:00:41.715Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "jG8uS3FYT5a5aTc9g",
+	"text": "Lazaro Cardenas",
+	"longitud": "-117.0064567",
+	"latitud": "32.5182533",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:53:40.348Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "pkeqJcdYiGxpnku89",
+	"text": "Jai Alai",
+	"longitud": "-117.03629679999999",
+	"latitud": "32.52916210000001",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:37:49.027Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "qma5HRDgFxnH7q7jF",
+	"text": "Siglo XXI",
+	"longitud": "-116.9393217",
+	"latitud": "32.4926133",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T20:03:54.799Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "sHxsB299gxwp89FqL",
+	"text": "Chaparral",
+	"longitud": "-117.02826298900706",
+	"latitud": "32.538919351138574",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:26:26.586Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "uqaDaftjSTc7Aazmy",
+	"text": "Simon bolivar",
+	"longitud": "-117.0199",
+	"latitud": "32.5308",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T20:13:02.917Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}, {
+	"_id": "wZGFiWjyvQKwKvQkH",
+	"text": "Centro Revolucion 2nd y 3ra",
+	"longitud": "-117.03685979999997",
+	"latitud": "32.5349291",
+	"url": "",
+	"complete": false,
+	"createdAt": {
+		"$date": "2016-11-26T19:33:18.456Z"
+	},
+	"user": "rkbFx7NnjgSX37hBv"
+}]
