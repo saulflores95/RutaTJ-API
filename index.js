@@ -4,14 +4,15 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const db = require('./server/models')
 const userController = require('./server/controllers/userController')
+const routeController = require('./server/controllers/routeController')
 const jwt = require('jsonwebtoken')
-let routes = require('./rutas.json')
-
+const cors = require('cors')
+app.use(cors())
+//Database connection
 mongoose.Promise = global.Promise
-mongoose.connect('mongodb://localhost:27017/rutatj', { useMongoClient: true },() => {
+mongoose.connect('mongodb://localhost:27017/rutatj', { useMongoClient: true }, () => {
   console.log('Connected to mongodb...')
 })
-
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
@@ -44,13 +45,10 @@ app.get('/api/protected', userController.loginRequired, (req, res) => {
   })
 })
 
-app.get('/api/routes', (req, res) => {
-  return res.status(200).json({
-    succes: true,
-    data: routes
-  })
-})
+app.get('/api/routes', routeController.get)
 
-app.listen(3000, () => {
-  console.log('App activated on port 3000')
+app.post('/api/routes', userController.loginRequired, routeController.post)
+
+app.listen(8080, () => {
+  console.log('App activated on port 8080')
 })

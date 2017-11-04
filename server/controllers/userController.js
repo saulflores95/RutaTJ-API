@@ -6,11 +6,14 @@ const userController = {}
 
 userController.register = (req, res) => {
   let newUser = new db.User(req.body)
-  newUser.hash_password = bcrypt.hashSync(req.body.password ,10)
+  newUser.hash_password = bcrypt.hashSync(req.body.password, 10)
+  console.log(newUser);
+  console.log(req.body);
   newUser.save((err, user) => {
+    console.log(err)
     if (err) {
       return res.status(400).send({
-        message: err
+          message: err
       })
     } else {
       user.hash_password = undefined
@@ -38,9 +41,9 @@ userController.sign_in = function (req, res) {
 
 userController.loginRequired = (req, res, next) => {
   if (req.user) {
-    next();
+    next()
   } else {
-    return res.status(401).json({ message: 'Unauthorized user!' });
+    return res.status(401).json({ message: 'Unauthorized user!' })
   }
 }
 

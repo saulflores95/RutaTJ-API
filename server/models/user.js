@@ -23,12 +23,20 @@ let UserSchema = new Schema({
   created: {
     type: Date,
     default: Date.now
+  },
+  type: {
+    type: String,
+    default: 'driver'
+  },
+  companyID: {
+    type: String,
+    required: true
   }
 })
 
-UserSchema.methods.comparePassword = function(password) {
-  return bcrypt.compareSync(password, this.hash_password);
-};
+UserSchema.methods.comparePassword = function (password) {
+  return bcrypt.compareSync(password, this.hash_password)
+}
 
 const User = mongoose.model('User', UserSchema)
 
