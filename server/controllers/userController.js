@@ -25,7 +25,7 @@ userController.register = (req, res) => {
 userController.sign_in = function (req, res) {
   db.User.findOne({
     email: req.body.email
-  }, function (err, user) {
+  }, function (err, user){
     if (err) throw err
     if (!user) {
       res.status(401).json({ message: 'Authentication failed. User not found.' })

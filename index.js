@@ -33,6 +33,7 @@ app.get('/api', (req, res) => {
   res.json({
     text: 'Bienvenido a el API de RutaTJ'
   })
+  console.log(req.user)
 })
 
 app.post('/api/register', userController.register)
