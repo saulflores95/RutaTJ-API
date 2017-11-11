@@ -1,5 +1,9 @@
 const express = require('express')
 const app = express()
+
+const server = require('http').Server(app)
+const io = require('socket.io')(server)
+
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const db = require('./server/models')
@@ -28,12 +32,34 @@ app.use((req, res, next) => {
     next()
   }
 })
+//Mock data and socket io integration START
+let drivers = [
+  {
+    username: 'Fred',
+    socketId: 123,
+    coords: [
+      35.44,
+      -122.34
+    ]
+  }
+]
+let count = 0
+//  socket.io server
+io.on('connection', socket => {
 
-app.get('/api', (req, res) => {
+})
+//Moch data and socket io integration Finish
+
+app.get('/api', userController.loginRequired, (req, res) => {
   res.json({
-    text: 'Bienvenido a el API de RutaTJ'
+    text: 'Welcome to the api'
   })
-  console.log(req.user)
+})
+
+app.get('/api/user', (req, res) => {
+  res.json({
+    user: req.user
+  })
 })
 
 app.post('/api/register', userController.register)

@@ -11,6 +11,7 @@ let RouteSchema = new Schema({
     type: Date,
     default: Date.now
   },
+  direccion: String,
   longitud: {
     type: Number,
     required: true

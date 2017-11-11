@@ -23,6 +23,7 @@ userController.register = (req, res) => {
 }
 
 userController.sign_in = function (req, res) {
+  console.log('Sign in server...');
   db.User.findOne({
     email: req.body.email
   }, function (err, user){
