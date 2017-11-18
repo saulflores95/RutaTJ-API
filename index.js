@@ -35,10 +35,8 @@ let drivers = [
   {
     username: 'Fred',
     socketId: 123,
-    coords: [
-      35.44,
-      -122.34
-    ]
+    latitude: 35.44,
+    longitude: -122.34
   }
 ]
 let count = 0
@@ -63,9 +61,6 @@ io.on('connection', socket => {
     }
   })
   socket.on('remove-driver', data => {
-    console.log('remove activated...')
-    console.log('data', data)
-    console.log('drivers', drivers)
     drivers = drivers.filter(driver => {
       return driver.socketId !== data
     })
@@ -78,18 +73,17 @@ io.on('connection', socket => {
       return 0
     } else {
       drivers[index].coords = data.coords
+      console.log(drivers[index].latitude)
       console.log(`Updated Sucess: ${drivers[index].username} - Cords: ${drivers[index].coords[0]} -  ${drivers[index].coords[1]}`)
     }
     io.sockets.emit('drivers', drivers)
   })
-
   socket.on('disconnect', function (data) {
     count--
     io.sockets.emit('broadcast', count + ' people online')
   })
 })
 
-//Moch data and socket io integration Finish
 
 app.get('/api', userController.loginRequired, (req, res) => {
   res.json({
@@ -116,6 +110,8 @@ app.get('/api/protected', userController.loginRequired, (req, res) => {
 app.get('/api/routes', routeController.get)
 
 app.post('/api/routes', userController.loginRequired, routeController.post)
+
+app.put('/api/update-user-position', userController.updatePosition)
 
 server.listen(port, () => {
   console.log(`App activated on port ${port}`)

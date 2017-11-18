@@ -31,6 +31,17 @@ let UserSchema = new Schema({
   companyID: {
     type: String,
     required: true
+  },
+  latitude: {
+    type: Number,
+    default: 52.520007
+  },
+  longitude: {
+    type: Number,
+    default: 13.404954
+  },
+  socketId: {
+    type: String
   }
 })
 

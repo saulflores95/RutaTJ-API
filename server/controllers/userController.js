@@ -41,6 +41,7 @@ userController.sign_in = function (req, res) {
 }
 
 userController.loginRequired = (req, res, next) => {
+  console.log(req)
   if (req.user) {
     next()
   } else {
@@ -48,4 +49,27 @@ userController.loginRequired = (req, res, next) => {
   }
 }
 
+userController.updatePosition = (req, res) => {
+    console.log('update position initiated...')
+    db.User.findOne({
+        email: req.body.email
+    }, function(err, user) {
+        if (err) throw err
+        if (!user) {
+            res.status(401).json({
+                message: 'Authentication failed. User not found.'
+            })
+        }else {
+            user.latitude = req.body.latitude
+            user.longitude = req.body.longitude
+            user.socketId = req.body.socketId
+            user.save((err) => {
+                if (err)
+                    console.log('error in updating collection...')
+                else
+                    console.log('sucess in updating position...')
+            })
+        }
+    })
+}
 module.exports = userController

@@ -3,7 +3,6 @@ const rutas = require('../../rutas.json')
 const routeController = {}
 
 routeController.post = (req, res) => {
-  console.log('fasdf');
   let newRoute = new db.Route(req.body)
   console.log(newRoute);
   newRoute.save((err, route) => {
